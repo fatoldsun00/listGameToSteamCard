@@ -114,7 +114,7 @@ const clickOnGame = ({ appid }: { appid: number }) => {
 
 <style scoped>
 ul {
-  --gameWidth: 250px;
+  --gameWidth: 184px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(var(--gameWidth), 1fr));
   row-gap: 1em;
@@ -127,7 +127,7 @@ li {
   width: 100%;
   height: calc(var(--gameWidth) * 0.38);
   border-radius: 20px;
-  box-shadow: 0px 1px 23px 6px rgba(0, 0, 0, 0.42);
+  box-shadow: 3px 3px 25px -18px rgba(0, 0, 0, 0.4);
 }
 li.noLogo {
   text-align: center;
